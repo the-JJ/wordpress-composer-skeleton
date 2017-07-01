@@ -1,0 +1,30 @@
+{
+    "name": "the-jj/wordpress-composer-skeleton",
+    "description": "Skeleton for setting up Wordpress with composer",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "johnpbloch/wordpress": "^4.8"
+    },
+    "authors": [
+        {
+            "name": "Juraj Juričić",
+            "email": "gmail@juricicjuraj.com"
+        }
+    ],
+    "extra": {
+        "wordpress-install-dir": "wp"
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "cp -R wp/wp-content/themes wp-content",
+            "cp -R wp/wp-content/plugins wp-content"
+        ]
+    }
+}

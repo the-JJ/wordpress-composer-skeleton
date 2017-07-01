@@ -1,0 +1,13 @@
+/.idea/
+composer.lock
+
+/vendor/
+/wp/
+
+config/secure*
+
+/wp-content/*
+!/wp-content/index.php
+# If you develop custom plugins or themes, add them as gitkeep, e.g.:
+# !/wp-content/plugins/my-awesome-plugin
+# !/wp-content/themes/my-awesome-theme
