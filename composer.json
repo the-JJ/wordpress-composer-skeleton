@@ -2,6 +2,7 @@
     "name": "the-jj/wordpress-composer-skeleton",
     "description": "Skeleton for setting up Wordpress with composer",
     "type": "project",
+    "license": "MIT",
     "repositories": [
         {
             "type": "composer",
